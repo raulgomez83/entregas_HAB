@@ -1,0 +1,24 @@
+{
+  "name": "Entrega6-BUSCANDOME-LA-VIDA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server www --files www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulgomez83/Entrega6-BUSCANDOME-LA-VIDA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulgomez83/Entrega6-BUSCANDOME-LA-VIDA/issues"
+  },
+  "homepage": "https://github.com/raulgomez83/Entrega6-BUSCANDOME-LA-VIDA#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

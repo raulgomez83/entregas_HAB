@@ -1,0 +1,163 @@
+html {
+  --orange: #f2994a;
+}
+body {
+  background-color: var(--orange);
+  font-family: sans-serif;
+  border: 5px solid gray;
+  margin: 0 auto;
+  border: 0;
+  max-width: 1200px;
+}
+header {
+  background-image: url(vaca2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  color: aliceblue;
+  margin-right: 6rem;
+}
+header button {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 7rem;
+  height: 2.5rem;
+  margin: 3rem 2rem;
+}
+header ul {
+  display: flex;
+}
+
+header nav ul li a {
+  font-size: 1.5rem;
+  color: antiquewhite;
+  text-decoration: none;
+  text-decoration-line: none;
+  padding: 0 1rem 0;
+  font-size: 15px;
+}
+/* **************HEADER********************************* */
+main {
+  margin: 0 2rem 0;
+}
+#parrafada h2 {
+  text-align: left;
+  color: white;
+  font-size: 5rem;
+}
+#parrafada p {
+  margin: -2rem 0 2rem;
+  columns: 2;
+}
+#tresvacas {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2rem;
+  display: flex;
+}
+#tresvacas img {
+  width: 100%;
+  max-height: 11.6rem;
+  object-fit: cover;
+}
+#tresvacas h3 {
+  font-size: 3rem;
+}
+#tresvacas p {
+  font-size: 15px;
+  padding: 1rem;
+}
+#tresvacas button {
+  font-size: 1.8rem;
+  background-color: lightgrey;
+  font-weight: 600;
+  width: 100%;
+  height: 5rem;
+  border: 1px solid black;
+}
+
+#Vaca1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 1rem;
+}
+#Vaca2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 1rem;
+}
+#Vaca3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+/* *********************MAIN************************** */
+footer {
+  background-color: white;
+  margin: 0 0 5rem 0;
+}
+footer h2 {
+  color: orange;
+  text-align: start;
+  padding: 1rem;
+}
+footer form {
+  background-color: white;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+footer ul li {
+  width: 40%;
+}
+
+footer form ul li input {
+  width: 100%;
+  background-color: orange;
+  border: 2px solid black;
+}
+footer form ul li textarea {
+  width: 100%;
+  background-color: orange;
+  border: 2px solid black;
+}
+#provincia {
+  width: 100%;
+  background-color: orange;
+  border: 2px solid black;
+  color: white;
+}
+#lastbutton {
+  background-color: black;
+  color: white;
+  height: 1.6rem;
+  width: 6rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+form ul {
+  list-style: none;
+}
+#lastbutton {
+  margin: 1rem;
+}

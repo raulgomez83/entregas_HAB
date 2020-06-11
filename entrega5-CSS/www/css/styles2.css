@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
+
+body {
+  font-family: Tangerine;
+  background-color: orange;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 1000px;
+}
+
+header {
+  background-image: url(vacah.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+header h1 {
+  font-size: 8rem;
+  color: white;
+  margin-right: 10rem;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header ul li a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: wheat;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+button {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 8rem;
+  height: 3rem;
+}
+/* +++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++ */
+main h2 {
+  font-size: 8rem;
+  color: white;
+  margin: 2rem;
+}
+#parrafada p {
+  margin: 1rem;
+}
+#tresvacas {
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+#tresvacas img {
+  width: 95%;
+  margin: 1rem;
+}
+
+#tresvacas h3 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+#tresvacas button {
+  font-size: 1.2rem;
+  background-color: chocolate;
+  color: black;
+  width: 12rem;
+  height: 4rem;
+  border: 3px solid black;
+  margin-bottom: 2rem;
+}
+
+#formulario {
+  background-color: orange;
+}
+#formulario h2 {
+  font-size: 3rem;
+}
+#formulario ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+}
+form ul li input {
+  width: 30%;
+  background-color: chocolate;
+  border: 2px solid black;
+}
+form ul li textarea {
+  width: 100%;
+  background-color: chocolate;
+  border: 2px solid black;
+}
+#provincia {
+  width: 30%;
+  background-color: chocolate;
+  border: 2px solid black;
+}
+#formulario button {
+  background-color: chocolate;
+  color: black;
+  font-weight: bold;
+  width: 8rem;
+  height: 3rem;
+}
+
+@media (min-width: 700px) {
+  #parrafada p {
+    font-size: 25px;
+    columns: 2;
+  }
+  #tresvacas {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+  }
+  #tresvacas p {
+    font-size: 20px;
+  }
+  #tresvacas li {
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+  #tresvacas img {
+    max-height: 200px;
+  }
+  #Vaca3 {
+    padding-right: 1rem;
+  }
+  #Vaca1 img:hover {
+    transform: translate(20rem, 0) scale(3);
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+  }
+  #Vaca2 img:hover {
+    transform: translate(0rem, 0) scale(3);
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+  }
+  #Vaca3 img:hover {
+    transform: translate(-20rem, 0) scale(3);
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+  }
+}

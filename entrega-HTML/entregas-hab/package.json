@@ -1,0 +1,24 @@
+{
+  "name": "entregas-hab",
+  "version": "1.0.0",
+  "description": "Ejercicio html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulgomez83/entregas-hab.git"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulgomez83/entregas-hab/issues"
+  },
+  "homepage": "https://github.com/raulgomez83/entregas-hab#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
